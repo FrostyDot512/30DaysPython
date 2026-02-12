@@ -1,7 +1,7 @@
 #Day 2: 30 Days of python programming
  
 #Level 1
-first_name = "Frosty" #1
+first_name = "Frosty" #1 
 last_name = "Dot" #2
 full_name = first_name + last_name #3
 country = "South Africa" #4
@@ -49,6 +49,7 @@ Last_Name1 = input("Enter your last name: ")
 Country1 = input("Enter your country: ")
 Age1 = input("Enter your age: ")
 help('keywords') #14
+
 
 
 
