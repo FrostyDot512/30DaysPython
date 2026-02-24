@@ -82,4 +82,11 @@ def reverse_list(arr):
     return reversed_arr
 print(reverse_list([1, 2, 3, 4, 5]))  # [5, 4, 3, 2, 1]
 
+#10
+def capitalize_list(lst):
+    return [item.capitalize() for item in lst]
+print(capitalize_list(['a', 'b', 'c']))  # ['A', 'B', 'C']
+
+
+
 
