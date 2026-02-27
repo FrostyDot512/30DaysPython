@@ -5,7 +5,8 @@ basically third party scripts which help us with our projects
 """
 
 #Creating a module
-
-import mymodule
+#Testing modules
+import mymodule 
 
 mymodule.greeting("Anwaar")
+
