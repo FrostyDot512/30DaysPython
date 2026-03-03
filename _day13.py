@@ -16,10 +16,15 @@ combined_count = [[country.upper(), country[:3].upper(), capital.upper()] for su
 print(combined_count)
 
 #6
+names =[[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald' 'Trump')], [('Bill', 'Gates')]]
+combined_names = [firstname + ' '+ lastname for sublist in names for firstname, lastname in sublist]
+print(combined_names)
+#Says too many values to be unpacked check later 
 
 #7
 #Solve slope
 print((lambda x1, x2, y1, y2: ((y2-y1)/ (x2-x1)))(2, 4, 2, 6))
 #Solve y-intercept
 print((lambda y_value, gradient, x_value: y_value - gradient*x_value)(6, 4, 9))
+
 
